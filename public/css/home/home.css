@@ -1,0 +1,26 @@
+.home-page-container__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50rem;
+  background-image: url("/images/home-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.home-page-container__content-article {
+  flex-grow: 10;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.home-page-container__content-article-paragraph {
+  margin: 10px 10px 100px 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+.home-page-container__content-label {
+  font-size: 10rem;
+  font-weight: bold;
+  flex-grow: 3;
+  margin-left: 20px;
+  color: white;
+}

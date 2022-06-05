@@ -1,0 +1,23 @@
+.products-page-container {
+  background-image: url("/images/edit-product-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50rem;
+}
+.products-page-container__header {
+  padding: 10px;
+}
+.products-page-container__form {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #ced4da;
+  border-radius: 0.25rem;
+  width: 40rem;
+  color: black;
+  background-color: #f8fafc;
+}
+
+.form-control {
+  border: none;
+  background-color: #f8fafc;
+}
