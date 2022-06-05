@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/products/view.css": "/css/products/view.css",
+    "/css/shared/heading.css": "/css/shared/heading.css",
+    "/css/home/about-us.css": "/css/home/about-us.css",
+    "/css/home/home.css": "/css/home/home.css",
+    "/css/products/items/edit.css": "/css/products/items/edit.css",
+    "/css/products/items/overview.css": "/css/products/items/overview.css",
+    "/js/products/items/edit.js": "/js/products/items/edit.js"
+}

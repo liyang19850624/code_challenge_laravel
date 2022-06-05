@@ -1,0 +1,23 @@
+@import '../../variables';
+
+
+.product-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    width: 70rem;
+
+    &__detail {
+        margin-left: $font-size-20px;
+        margin-top: $font-size-16px;
+        width: 40rem;
+    }
+
+    &__image {
+        img {
+            max-height: 7rem;
+            max-width: 7rem;
+        }
+    }
+}

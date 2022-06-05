@@ -1,0 +1,16 @@
+.product-item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+  width: 70rem;
+}
+.product-item__detail {
+  margin-left: 1.25rem;
+  margin-top: 1rem;
+  width: 40rem;
+}
+.product-item__image img {
+  max-height: 7rem;
+  max-width: 7rem;
+}

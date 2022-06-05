@@ -1,0 +1,32 @@
+@import '../variables';
+.home-page-container {
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: $height-page;
+        background-image: url('/images/home-page-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        &-article {
+            flex-grow: 10;
+            display: flex;
+            flex-direction: column-reverse;
+
+            &-paragraph {
+                margin: 10px 10px 100px 10px;
+                font-size: $font-size-24px;
+                color: white;
+            }
+        }
+
+        &-label {
+            font-size: $font-size-superheading;
+            font-weight: bold;
+            flex-grow: 3;
+            margin-left: 20px;
+            color: white;
+        }
+    }
+}
